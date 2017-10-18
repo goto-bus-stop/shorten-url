@@ -1,0 +1,29 @@
+{
+  "name": "shorten-url",
+  "description": "omit parts of a url for friendlier display",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/shorten-url/issues"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/shorten-url",
+  "keywords": [
+    "display",
+    "shorten",
+    "truncate",
+    "url"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/shorten-url.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  }
+}
