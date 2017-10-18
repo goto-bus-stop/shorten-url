@@ -2,6 +2,10 @@
 
 omit parts of a url for friendlier display
 
+[![npm][npm-image]][npm-url]
+[![travis][travis-image]][travis-url]
+[![standard][standard-image]][standard-url]
+
 It's like [@sindresorhus](https://github.com/sindresorhus)'s [truncate-url](https://github.com/sindresorhus/truncate-url),
 but without requiring the url and querystring modules in the browser. It's also
 similar to [@williambelle](https://github.com/williambelle)'s [crop-url](https://github.com/williambelle/crop-url),
@@ -22,10 +26,6 @@ t.equal(shorten('https://discordapp.com/channels/317475976369930241/317475976369
 t.equal(shorten('http://example.com/ultra/cool/page/that-is-really-deeply/nested/', 30),
   'http://example.com/…/nested/')
 ```
-
-[![npm][npm-image]][npm-url]
-[![travis][travis-image]][travis-url]
-[![standard][standard-image]][standard-url]
 
 [npm-image]: https://img.shields.io/npm/v/shorten-url.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/shorten-url
