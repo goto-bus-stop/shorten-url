@@ -7,7 +7,7 @@
     "url": "https://github.com/goto-bus-stop/shorten-url/issues"
   },
   "devDependencies": {
-    "standard": "^10.0.3",
+    "standard": "^14.3.1",
     "tape": "^4.8.0"
   },
   "homepage": "https://github.com/goto-bus-stop/shorten-url",
