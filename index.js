@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = function shortenUrl (url, maxLength) {
   if (typeof url !== 'string') throw new TypeError('shorten-url: url must be a string')
   if (typeof maxLength !== 'number') throw new TypeError('shorten-url: maxLength must be a number')
