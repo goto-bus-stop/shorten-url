@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 'use strict'
 
 module.exports = function shortenUrl (url, maxLength) {
